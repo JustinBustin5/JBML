@@ -2,7 +2,7 @@
 My mod loader for Unity (To be added to project)
 
 # How to Use - As the Gamedev
-Import JBML.unitypackage into your project. Create the JBMLObject prefab in the first loaded scene.
+Download and import JBML.unitypackage into your project. Create the JBMLObject prefab in the first loaded scene.
 JBMLObject has some options that can be changed. Mod Tags To Be Loaded is a list of strings. The strings let the mod loader know what mod tags to load. "\*" means load all mod tags. If you're going to use this feature at all, I would recommend to make a settings menu in the game (under some kind of Advanced tab) where players can input the strings themselves.
 # How to Use - As the Modder
 Download JBMLInterfaceManager.dll and create a new project (C# Class Library) in Visual Studio. Add a reference to JBMLInterfaceManager.dll.
